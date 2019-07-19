@@ -1,4 +1,8 @@
-# node-exif
+# vimmerby-exif
+
+This package is a fork from the exif (node-exif) package published at npmjs. This fork can parse a buffer in browser with webpack since node fs package is disabled in browser mode. It also has a lot of the fixes from the community.
+
+## node-exif
 
 With _node-exif_ you can extract Exif metadata from images (JPEG). Exif is a format used, for example, by digital cameras and scanners to save additional information about an image in the image file. This information can be the camera model, resolution, where the image was taken (GPS) or when it was taken.
 
@@ -17,7 +21,7 @@ Rodrigo Espinosa proposes the npm package [exif-cli](https://github.com/RodrigoE
 
 Installing using npm (node package manager):
 
-    npm install exif
+    npm install vimmerby-exif
 
 If you don't have npm installed or don't want to use it:
 
@@ -29,7 +33,7 @@ If you don't have npm installed or don't want to use it:
 Easy. Just require _node-exif_ and throw an image at it. If _node-exif_ is able to extract data from the image it does so and returns an object with all the information found, if an error occurs you will receive an error message. To prove that it really is easy please see the following example.
 
 ```javascript
-var ExifImage = require('exif').ExifImage;
+var ExifImage = require('vimmerby-exif').ExifImage;
 
 try {
     new ExifImage({ image : 'myImage.jpg' }, function (error, exifData) {
