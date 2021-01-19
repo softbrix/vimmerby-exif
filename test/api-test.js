@@ -117,7 +117,7 @@ describe('node-exif tests', function() {
 
         var json=JSON.stringify(data);
         
-        //console.log("    data=", json, json.length);
+        // console.log("    data=", json, json.length);
         // console.log("expected=", expected, expected.length);
         
         assert.equal(json, expected, "Data are not the same");
