@@ -1,17 +1,27 @@
 {
-  "name" : "vimmerby-exif",
-  "version" : "0.9.0",
-  "description" : "A node.js library to extract Exif metadata from images.",
-  "author" : "Daniel Leinich <leinich@gmx.net>", 
-  "contributors": ["Olivier Oeuillot <olivier.oeuillot@gmail.com>", "Andreas Sehr <andreas@softbrix.se>" ],
-  "keywords" : ["exif", "image", "jpeg", "jpg", "makernotes", "gps"],
-  "main" : "./lib/exif",
+  "name": "vimmerby-exif",
+  "version": "0.9.0",
+  "description": "A node.js library to extract Exif metadata from images.",
+  "author": "Daniel Leinich <leinich@gmx.net>",
+  "contributors": [
+    "Olivier Oeuillot <olivier.oeuillot@gmail.com>",
+    "Andreas Sehr <andreas@softbrix.se>"
+  ],
+  "keywords": [
+    "exif",
+    "image",
+    "jpeg",
+    "jpg",
+    "makernotes",
+    "gps"
+  ],
+  "main": "./lib/exif",
   "browser": {
     "fs": false
   },
-  "repository" : {
-    "type" : "git",
-    "url" : "http://github.com/softbrix/node-exif.git"
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/softbrix/node-exif.git"
   },
   "dependencies": {
     "debug": "^2.2"
