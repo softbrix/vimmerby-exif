@@ -6,6 +6,6 @@ deploy:
   email: andreas@softbrix.se
   on:
     tags: true
-    repo: softbrix/vimmerby-exif
+    repo: vimmerby-exif
   api_key:
     secure: TunWtj4vD5MBCPdNrfgGw/LNN1/HkE3IVheAQxlQFZDeohCoJ++GEzZvQ+ETEp831C0H3GYtRgCrLY/zLZAaJzz7yCatf3kzIxb2wj8kdQn7L5U41q0Fq3O0g7Lem3jj1Scw98GoHJBG7wjsIM2NfWmH8tJzcIAeOfuYM0hOslpQpa4ATFZT+mDEv5OzcCiNhCbz9yA/ZB9OonPUiRLKNnbecssddpu0OgIW1X4LzxxspLnu22HfSNFPrdaKErwQUd5NfXE5TxTf2q5tIwvAQKwOKlwlzkh1CwOJJAgaaXpZ7i3Xbd0v371fKov/vWsDiZizOLgbcAazaDKPNq513wJYkjsl1HynT+yyEXsV8EcYhESGsvy0R7KTefz/r4aUIMvSapRurMffn+MGiv3ObNSaH3IfeqFqA4H2KWI+6JIKWegvmnj5zEedpMUBTwgwq1NjHIHwFNWgEk5bpylugsD01DkYHaML3/uGuqa47PITj9k35oNaR7pRTSLadJnmOTDR2owOjnPAlNZIKezdadJO7iXSnp+j//wF+JaEmXu+0cAgcs+zM4MvdH89lPYtsa2WBkX2Bqclv813M63e/BcDoZkyDuO8SOhH9EKIXd1goISfvB/aM5yCx7YBe6qaJs0Lsh41XmLGaAewPYX9Ff1USjQHw8iGd4/aoUaQCi0=
