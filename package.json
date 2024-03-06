@@ -24,7 +24,7 @@
     "url": "http://github.com/softbrix/node-exif.git"
   },
   "dependencies": {
-    "debug": "^2.2"
+    "debug": "^4.0.0"
   },
   "devDependencies": {
     "mocha": "^10.0.0"
